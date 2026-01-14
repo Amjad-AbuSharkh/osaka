@@ -1,0 +1,20 @@
+:root {
+     --main-font: "Open Sans", sans-serif;
+     --text-primary : #ff206e;
+}
+body {
+    font-family: var(--main-font);
+}
+.text__primary {
+    color: var(--text-primary) !important;
+}
+.navbar .navbar-collapse {
+    flex-grow: 0;
+}
+.navbar-toggler {
+    background-color: white !important;
+}
+.hero {
+   background-image: url(./image/public/hero.webp);
+   background-size: cover;
+}
