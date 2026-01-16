@@ -21,3 +21,17 @@ body {
 .about {
     background-image: url(./image/public/bg.jpg);
 }
+.portfolio nav .nav-tabs,
+.portfolio .nav-tabs .nav-link {
+    border: none;
+    font-weight: bold;
+} 
+.portfolio .nav {
+    justify-content: center;
+}
+.portfolio .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: var(--text-primary);
+}
+.portfolio .nav-link {
+    color: black;
+}
