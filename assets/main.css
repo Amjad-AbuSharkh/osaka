@@ -1,37 +1,64 @@
 :root {
-     --main-font: "Open Sans", sans-serif;
-     --text-primary : #ff206e;
+    --main-font: "Open Sans", sans-serif;
+    --text-primary: #ff206e;
 }
+
 body {
     font-family: var(--main-font);
 }
+
 .text__primary {
     color: var(--text-primary) !important;
 }
+
 .navbar .navbar-collapse {
     flex-grow: 0;
 }
+
 .navbar-toggler {
     background-color: white !important;
 }
+
 .hero {
-   background-image: url(./image/public/hero.webp);
-   background-size: cover;
+    background-image: url(./image/public/hero.webp);
+    background-size: cover;
 }
+
 .about {
     background-image: url(./image/public/bg.jpg);
 }
+
 .portfolio nav .nav-tabs,
 .portfolio .nav-tabs .nav-link {
     border: none;
     font-weight: bold;
-} 
+}
+
 .portfolio .nav {
     justify-content: center;
 }
-.portfolio .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+
+.portfolio .nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
     color: var(--text-primary);
 }
+
 .portfolio .nav-link {
     color: black;
+}
+
+.Testimonials .testimonial {
+    border: 1px solid #00000026;
+    padding: 20px;
+}
+
+.Testimonials .testimonial img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.Testimonials .testimonial h2,
+h3 {
+    font-size: 1rem;
 }
